@@ -63,12 +63,9 @@ You can use the code in the file total_multiplication_pairs.cpp to see the resul
 
 📝 LICENSE:
 
-© 2025 Swastik Bhandari. All rights reserved.
+Copyright © 2025 Swastik Bhandari. All rights reserved.
 
-This code and the idea behind it are original and authored by Swastik Bhandari. 
-No part of this repository may be used, reproduced, modified, or published — in 
-academic papers, commercial products, or derivative works — without explicit 
-written permission from the author.
+This private repository contains code and documentation for a novel Matrix Chain Multiplication algorithm. Access is granted solely for review and collaboration purposes. No use, reproduction, modification, or distribution is permitted without written permission from the author. Contact swastik3223@student.ku.edu.np for inquiries.
 
 -------------------------------------------------------------------------------
 
