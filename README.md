@@ -19,7 +19,7 @@ Matrix A₂ has size v[1]×v[2]
 Matrix Aₘ has size v[m-1]×v[m], where m = n-1
 
 The algorithm calculates how many such matrix multiplications are possible 
-based on dimension compatibility (i.e., when v[i] == v[j]).
+based on dimension compatibility.
 
 -------------------------------------------------------------------------------
 
@@ -39,8 +39,10 @@ output : 3
 -------------------------------------------------------------------------------
 
 📐 FORMULA FOR MAXIMUM POSSIBLE MULTIPLICATION PAIRS:
-If all matrices are of size k×k, and there are m matrices:
-    T(m) = 2 + ((m-2) * (2m + 2)) / 2, where m ≥ 1
+If all matrices are of size k×k ( i.e every elements in the array is same ) , and there are m matrices:
+    T(m) = 2 + ((m-2) * (2m + 2)) / 2, where m ≥1 
+    
+Total multiplication pairs t(m) is alway less or equal to T(m).
 
 -------------------------------------------------------------------------------
 
