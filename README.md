@@ -1,4 +1,3 @@
-===============================================================================
 📦 Project: Matrix Chain Multiplication Pair Count Analyzer
 ===============================================================================
 
@@ -67,7 +66,5 @@ Email: swastikbhandari2006@gmail.com
 
 -------------------------------------------------------------------------------
 
-🔗 REPOSITORY (suggested GitHub name):
+🔗 REPOSITORY:
 github.com/swastik-bhandari/Matrix-Multiplication-Pair-Counter
-
-===============================================================================
