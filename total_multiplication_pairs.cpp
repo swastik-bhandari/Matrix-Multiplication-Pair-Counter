@@ -9,21 +9,21 @@ using namespace std;
 
 int MCM(vector<int> &v) {
     int n = v.size();          // n = m + 1
-    int sum = v.size() - 2;    // Base adjacent pairs (m - 1)
+    int total_pairs =0;
 
     for (int i = 1; i < n - 1; i++) {
-        for (int j = i + 1; j < n - 1; j++) {
-            if (v[i] == v[j]) sum++;  // Forward dimension matches
+        for (int j = i ; j < n - 1; j++) {
+            if (v[i] == v[j]) total_pairs++;  // Forward dimension matches
         }
     }
 
     for (int i = n - 1; i >= 0; i--) {
         for (int j = i - 2; j >= 0; j--) {
-            if (v[i] == v[j]) sum++;  // Backward dimension matches
+            if (v[i] == v[j]) total_pairs++;  // Backward dimension matches
         }
     }
 
-    return sum;
+    return total_pairs;
 }
 
 int main () {
