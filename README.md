@@ -40,8 +40,21 @@ output : 3
 📐 FORMULA FOR MAXIMUM POSSIBLE MULTIPLICATION PAIRS:
 If all matrices are of size k×k ( i.e every elements in the array is same ) , and there are m matrices:
     T(m) = 2 + ((m-2) * (2m + 2)) / 2, where m ≥1 
-    
-Total multiplication pairs t(m) is alway less or equal to T(m).
+
+When testing the algorithm for matrices of identical dimensions (e.g., all 
+𝑘×𝑘), we observed the following number of valid multiplication pairs:
+
+| Number of Matrices (m) | Maximum Valid Multiplication Pairs (T(m)) |
+| ---------------------- | ----------------------------------------- |
+| 1                      | 0                                         |
+| 2                      | 2                                         |
+| 3                      | 6                                         |
+| 4                      | 12                                        |
+| 5                      | 20                                        |
+| 6                      | 30                                        |
+| 7                      | 42                                        |
+
+Note : valid multiplication pairs t(m) is alway less or equal to Maximum Valid Multiplication Pairs T(m).
 
 -------------------------------------------------------------------------------
 
