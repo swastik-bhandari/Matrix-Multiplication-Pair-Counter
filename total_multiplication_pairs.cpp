@@ -9,7 +9,7 @@
 #include<vector>
 using namespace std;
 
-int MCM(vector<int> &v) {
+int TVMP(vector<int> &v) {
     int n = v.size();          
     int total_pairs =0;
 
@@ -30,6 +30,6 @@ int MCM(vector<int> &v) {
 
 int main () {
 vector<int>v={1,2,3,2,4,3};
-cout<<MCM(v);
+cout<<TVMP(v);
 return 0;
 }
