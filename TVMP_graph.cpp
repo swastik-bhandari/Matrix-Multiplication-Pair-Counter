@@ -34,12 +34,14 @@ class Graph {
     }
     public:
     void printPairs(void) {
+        cout<<"Edges:"<<endl;
         for(auto & i : Edges) {
             cout<<"("<<i.first.first<<","<<i.first.second<<")-->("<<i.second.first<<","<<i.second.second<<")"<<endl;
         }
     }
 
     void printMatrices(void) {
+        cout<<"Matrices:"<<endl;
         for(auto & i : matrices) {
             cout<<"("<<i.first<<","<<i.second<<")"<<endl;
         }
@@ -50,7 +52,7 @@ int main () {
 vector<int>v={1,2,3,2,4,3};
 // cout<<TVMP(v);
 Graph g(v);
-g.printPairs();
 g.printMatrices();
+g.printPairs();
 return 0;
 }
