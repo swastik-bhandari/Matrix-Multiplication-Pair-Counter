@@ -58,8 +58,43 @@ Note : valid multiplication pairs t(m) is alway less or equal to Maximum Valid M
 
 -------------------------------------------------------------------------------
 
+📐 The Mathematical Framework
+MCM Approach:
+Problem: Minimize cost of ((A₁ × A₂) × A₃) × A₄ vs A₁ × (A₂ × (A₃ × A₄)) etc.
+Constraint: Only adjacent matrix pairs allowed
+Algorithm: Dynamic programming on fixed sequence
+Result: Optimal parenthesization of predetermined order
+TVMP Approach:
+Problem: Minimize cost across ALL valid multiplication sequences
+Graph Construction:
+  - Nodes: Matrix dimension pairs (r,c)
+  - Edges: Valid multiplications with costs
+  - Paths: Complete multiplication strategies
+Algorithm: Graph optimization (shortest path, etc.)
+Result: Global minimum across all valid strategies
+
+-------------------------------------------------------------------------------
+
+The Breakthrough Proof: [5,3,6,3,5]
+MCM Analysis:
+
+Search Space: 5 possible parenthesizations of fixed order
+Best Found: 174 operations
+Limitation: Never considers reordering possibilities
+
+TVMP Analysis:
+
+Search Space: All valid multiplication graphs
+Best Found: 153 operations
+Advantage: Explores non-adjacent multiplication paths
+Improvement: 12.1% better than "optimal" MCM
+
+-------------------------------------------------------------------------------
+
 ⚙️ USAGE:
 You can use the code in the file total_multiplication_pairs.cpp to see the result.
+
+-------------------------------------------------------------------------------
 
 📝 LICENSE:
 

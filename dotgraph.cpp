@@ -75,7 +75,8 @@ public:
 };
 
 int main() {
-    vector<int> dims = {1, 2, 3, 2, 4, 3}; // Dimensions of matrices
+   // vector<int> dims = {1, 2, 3, 2, 4, 3}; // Dimensions of matrices
+      vector<int> dims = {5,3,6,3,5};
 
     Graph g(dims);
     g.printMatrices();
